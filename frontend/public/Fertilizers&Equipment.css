@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2e8b57;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-login {
+    background-color: white;
+    color: #2e8b57;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 100vh; 
+    background-image: url('https://files.oaiusercontent.com/file-gUbC1xaQpmIH5VJw91NcC6Ty?se=2024-10-09T18%3A18%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D2555e29a-8af8-492a-82b3-9cd13d8de83a.webp&sig=IX9CAMSsPSl1fj8p8/VsR7GTMCMa6lGS%2BvDC1h2j/0I%3D');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    padding: 15px 30px;
+    background-color: white;
+    color: #2e8b57;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-cta:hover {
+    background-color: #e9e9e9;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-box h3 {
+    font-size: 24px;
+    color: #2e8b57;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-links {
+    margin-top: 10px;
+}
+
+.footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,142 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.hero {
+    background-image: url('https://files.oaiusercontent.com/file-hYjCFhZkUzuvw2kNrvurURiV?se=2024-10-09T18%3A52%3A20Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D46f740bf-14b2-43ad-a0ad-4aee63634f86.webp&sig=hdtnWHMQmU3/wOJcHl2/w8t%2B4Vv0AP40CBasKwLEPXM%3D');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+
+
+.features {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #4CAF50;
+}
+
+.dashboard {
+    padding: 50px;
+    background-color: #e0f7fa;
+}
+
+.dashboard h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.crop-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    font-weight: bold;
+}
+
+.healthy {
+    color: #4CAF50;
+}
+
+.warning {
+    color: #FF9800;
+}
+
+.critical {
+    color: #f44336;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}

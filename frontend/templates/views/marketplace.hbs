@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-Marketplace</title>
+    <link rel="stylesheet" href="public/marketplace.css"> 
+</head>
+<body>
+    <section id="marketplace">
+        <h2>Marketplace</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Buy/Sell Crops</h3>
+                <button onclick="openNewWindow('SellCrops.html')">View Listings</button>
+            </div>
+            <div class="card">
+                <h3>Buy/Sell Livestock</h3>
+                <button onclick="openNewWindow('SellLivestock.html')">View Listings</button>
+            </div>
+            <div class="card">
+                <h3>Fertilizers & Equipment</h3>
+                <button onclick="openNewWindow('Fertilizers&Equipment.html')">View Listings</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/marketplace.js"></script> 
+</body>
+</html>

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('UntitledMadewithFlexClip.mp4') no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 49, 63, 0.7); 
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.logo-container h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.logo-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-tabs button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background: transparent;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.form-tabs button.active {
+    background: #27ae60;
+    color: white;
+    border-radius: 10px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1e8449;
+}
+
+.terms {
+    font-size: 0.8rem;
+    color: #555;
+    text-align: center;
+}
+
+.terms a {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #02220f;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agri-Marketplace - Sign In</title>
+
+  <!-- Link to signup CSS file -->
+  <link rel="stylesheet" href="/singup.css">
+</head>
+<body>
+  <div class="hero-section">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="logo-container">
+        <head></head>
+        <h1>Agri-Marketplace</h1>
+        <p>Empowering Agriculture through Technology</p>
+      </div>
+
+     
+      {{#if error}}
+        <div class="alert alert-danger">{{error}}</div>
+      {{/if}}
+
+      {{#if success}}
+        <div class="alert alert-success">{{success}}</div>
+      {{/if}}
+
+      <div class="form-container">
+        <div class="form-tabs">
+          <button id="signInTab" class="active">Sign In</button>
+          <a href="/signup">
+            <button id="signUpTab">Sign Up</button>
+          </a>
+        </div>
+
+        <div id="signInForm" class="form">
+          <form action="/signin" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign In</button>
+          </form>
+        </div>
+
+        <p class="terms">By signing in, you agree to our <a href="#">Terms & Conditions</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/singup.js"></script>
+</body>
+</html>

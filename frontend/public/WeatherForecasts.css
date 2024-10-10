@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('weather.webp');
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+
+
+.dashboard {
+    padding: 50px;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+.weather-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.forecast {
+    padding: 50px;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.forecast-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.forecast-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card h3 {
+    color: #4CAF50;
+}
+
+
+.crop-recommendations {
+    padding: 50px;
+    background-color: #f9fbe7;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recommendation-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
