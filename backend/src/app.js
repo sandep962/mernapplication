@@ -27,6 +27,9 @@ app.set('views', path.join(__dirname, '../../frontend/templates/views'));  // Pa
 // Serve static files from frontend/public
 app.use(express.static(path.join(__dirname, '../../frontend/public')));
 
+app.use(express.static(path.join(__dirname, '../frontend/public')));
+
+
 // Middleware for form data parsing
 app.use(express.urlencoded({ extended: true }));
 

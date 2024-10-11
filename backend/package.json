@@ -1,11 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "app.js",
-"scripts": {
-    "dev": "nodemon src/app.js",
-   "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start":"nodemon src/app.js"
+  "main": "app.js","scripts": {
+  "dev": "nodemon src/app.js",
+  "build": "cd frontend && npm install && npm run build",
+  "start": "node src/app.js"
+   
+
+
     
   },
   "keywords": [],
@@ -22,4 +24,5 @@
     "mongoose": "^8.7.0",
     "nodemon": "^3.1.7"
   }
+
 }
