@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js","scripts": {
   "dev": "nodemon src/app.js",
-  "build": "cd frontend && npm install && npm run build",
+ "build": "react-scripts build",
   "start": "node src/app.js"
    
 
